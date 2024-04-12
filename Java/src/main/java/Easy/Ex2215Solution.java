@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-class Solution {
+class Solution2215 {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
 
         Set<Integer> uniqueInNums1 = new HashSet<>(IntStream.of(nums1).boxed().collect(Collectors.toList())); // Efficient conversion to Integer set
@@ -35,7 +35,7 @@ class __DriverSolution__ {
         int[] nums1 = {1, 2, 3, 3};
         int[] nums2 = {1, 1, 2, 2};
 
-        Solution sol = new Solution(); // Create an instance of Solution2215
+        Solution2215 sol = new Solution2215(); // Create an instance of Solution2215
         List<List<Integer>> result = sol.findDifference(nums1, nums2);
         System.out.println("Result: " + result);
     }
