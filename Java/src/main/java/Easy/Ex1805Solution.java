@@ -1,3 +1,5 @@
+package Easy;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -37,7 +39,7 @@ class Ex1805Solution {
 
     public static void main(String[] args) {
         Ex1805Solution sol = new Ex1805Solution();
-//        System.out.println(sol.numDifferentIntegers("a123bc34d8ef34"));
-//        System.out.println(sol.numDifferentIntegers("a1b01c001"));
+        System.out.println(sol.numDifferentIntegers("a123bc34d8ef34"));
+        System.out.println(sol.numDifferentIntegers("a1b01c001"));
     }
 }
