@@ -19,8 +19,6 @@ class Solution1436 {
         }
         return "What's wrong?";
     }
-}
-public class Ex1436Solution {
     public static void main(String[] args) {
         Solution1436 sol = new Solution1436();
 
@@ -32,3 +30,5 @@ public class Ex1436Solution {
         sol.destCity(paths);
     }
 }
+
+
